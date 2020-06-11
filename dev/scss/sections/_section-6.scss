@@ -1,0 +1,62 @@
+/* =============
+    Section-6
+============= */
+#section-6{
+    background-color: $lightsteelblue;
+    width: 100%;
+    padding-top: 15px;
+    
+}
+#section-6-text{
+    margin: 15px
+   
+}
+
+    #section-6-gallery{
+        display: grid;
+       width: 100%;
+            gap:15px;
+
+            @include md{
+                grid-template-areas: 
+                "g1 g2"
+                "g3 g3";
+            }
+
+            @include lg{
+                grid-template-areas: 
+                "g1 g2"
+                "g3 g3";
+            }
+
+            @include xl{
+                width:100%
+                
+            }
+
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+
+            #g1{
+                @include md{
+                    grid-area: g1;
+                }
+            }
+
+            #g2{
+                @include md{
+                    grid-area: g2;
+                }
+            }
+
+            #g3{
+                @include md{
+                    grid-area: g3;
+                }
+            }
+        }
+
+    

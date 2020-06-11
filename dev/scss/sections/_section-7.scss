@@ -1,0 +1,30 @@
+/* =============
+    Section-7
+============= */
+#section-7{
+    background-color: $lightsteelblue;
+    padding-left: 15px;    
+    padding-top: 30px;
+    
+
+    #section-7-people{
+        padding: 15px;
+        text-align: center;
+         
+
+
+     
+    }
+}
+#section-7-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/section-7/18.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+
+}
+
+

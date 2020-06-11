@@ -1,0 +1,29 @@
+/* =============
+    Section-3
+============= */
+#section-3{
+    background-color:$lightblue;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-areas: section-3;
+    padding-top: 5px;
+    padding-bottom: 140px;
+    height: 300px;
+    width: 100%;
+}
+#section-3-trucks{
+    margin: 15px;
+    display:grid;
+    
+}
+
+button {
+    background-color: $black;
+    border: none;
+    border-radius: 0;
+    color: $white;
+    font-size: 0.5rem;
+    font-weight: 400;
+    height: 30px;
+    width: 50px;
+}
